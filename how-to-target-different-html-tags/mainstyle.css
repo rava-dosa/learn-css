@@ -1,0 +1,50 @@
+@import "heading.css";
+@import "paragraph.css";
+
+* { font-family: "Arial Black", Gadget, sans-serif;}
+div * { font-family: "Comic Sans MS", cursive, sans-serif; }
+/*Cascade means as you go down changing things it will change so highest priority lies at the bottom*/
+.sitelink {
+	font-family: Georgia, serif;
+}
+/*so if you want to change stye of a particular cass this is how you do it*/
+#tonyquote{
+	font-family: "Lucidia Sans Unicode", "Lucide Grande", sans-serif;
+	color: black;
+}
+/*paragraph with sitelink*/
+p.sitelink {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: red;
+}
+/*span with id tonyname*/
+span#tonyname {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+}
+/*id tutorials with ol li*/
+#tutorials ol li {
+  color: purple;
+}
+/*id tutorials with ul li*/
+#tutorials ul li {
+  color: green;
+}
+/* p just after h3*/
+h3 + p{
+  font-style: italic;
+}
+/* a in p just after h3*/
+h3 + p > a {
+  color: red;
+}
+/* all p having class*/
+p[class] {
+  background: gray;
+}
+/* all p having id*/
+p[id] {
+  background: yellow;
+}
+/* all alt having nintendo*/
+*[alt~="nintendo"] {background: orange;}
