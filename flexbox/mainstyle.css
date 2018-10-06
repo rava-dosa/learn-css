@@ -1,0 +1,71 @@
+ #sidebar {
+ 	background: #E8E8E8;
+	position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #505050;	
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+ }
+
+
+
+#chatimage{
+    /*margin-top: 4%;*/
+    width: 100%;
+    border-radius: 50%;
+}
+
+.fles-parent {
+    margin-top: 5px;
+    height: 45px;
+    font-size: 15px;
+}
+div:hover {
+    background: pink;
+    /*border-radius: 10%;*/
+}
+.flex-child {
+    display: flex;
+    flex-direction: row;
+    /*border-color: rgb(0,0,0);*/
+    /*I have no idea why there is no border coming*/
+    /*overflow: hidden;*/
+    /*flex-wrap: wrap;*/
+}
+.item2 {
+    /*flex-grow: 2;*/
+    flex : 1 1 auto;
+    margin-top: 5px;
+    background: transparent;
+    border: 2px;
+    border-color: black;
+    font-family: Tahoma, Geneva, sans-serif;
+    overflow: hidden;
+
+}
+.item1 {
+    margin-right: 5px;
+}
+.item3 {
+    font-size: 10px;
+    font-family: inherit;
+}
+a {
+    color: black;
+}
+a:link {
+
+    text-decoration: none;
+
+}
+a.sidebar:visited {
+    text-decoration: none;
+}
