@@ -9,3 +9,4 @@ The box-sizing property can be used to adjust this behavior:
     final rendered width.
     border-box tells the browser to account for any border and padding in the 
     values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.
+CSS selector debug(debugger)[https://specificity.keegan.st/]
